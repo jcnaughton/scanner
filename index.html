@@ -1,0 +1,27 @@
+<html>
+ <head>
+  <title>scans</title>
+ </head>
+ <body>
+ 
+  <form action="scan.cgi" method='post'>
+  <table border='1'>
+  <tr><td>name:</td><td><input type="text" name='name'></td></tr>
+  <tr><td>resolution:</td><td><select name="res">
+   <option value="75">75</option>
+   <option value="100">100</option>
+   <option value="200">200</option>
+   <option value="300">300</option>
+   <option value="600">600</option>
+  </select></td></tr> 
+  <tr><td>mode:</td><td><select name="mode">
+   <option value="Color">Color</option>
+   <option value="Lineart">Lineart</option>
+   <option value="Gray">Gray</option>
+  </select></td></tr>
+  <tr><td colspan='2'><input type="submit" value="Submit"></td></tr>
+  </table>
+  </form>
+	
+</body>
+</html>
